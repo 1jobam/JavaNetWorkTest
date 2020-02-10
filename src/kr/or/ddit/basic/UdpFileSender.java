@@ -14,7 +14,7 @@ public class UdpFileSender {
         String serverIP = "127.0.0.1";
         int port = 8888;
          
-        File file = new File("d:/D_Other/Tulips.jpg");
+        File file = new File("e:/D_Other/Tulips.jpg");
         DatagramSocket ds = null;
         if (!file.exists()) {
             System.out.println("파일이 존재하지 않습니다.");

@@ -21,7 +21,7 @@ public class UdpFileReceiver {
           
         DatagramSocket ds = new DatagramSocket(port);
         FileOutputStream fos = null;       
-        fos = new FileOutputStream("d:/D_Other/Tulips3.jpg");
+        fos = new FileOutputStream("e:/D_Other/Tulips3.jpg");
         DatagramPacket dp = new DatagramPacket(buffer, buffer.length);
         ds.receive(dp);
         String str = new String(dp.getData()).trim();
